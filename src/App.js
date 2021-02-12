@@ -1,7 +1,9 @@
+import { Feedback } from "@material-ui/icons";
 import React from "react";
 import "./App.css";
-import Header from "./Header/Header";
-import Sidebar from "./Sidebar/Sidebar";
+import Feed from "./components/Feed/Feed";
+import Header from "./components/Header/Header";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Header />
       <div className="app__body">
         <Sidebar />
+        <Feed />
       </div>
       {/* App Body */}
       {/* Sidebar */}
